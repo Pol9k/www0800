@@ -1,326 +1,441 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital@1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Mulish:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
-        rel="stylesheet">
-    <title>услуга 0800</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <!-- Test Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="./css/main.css">
+  <title>itCOM</title>
 </head>
-
 <body>
-<div class="spinner-container">
-    <div class="circles">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+  <header class="header">
+    <div class="container">
+      <div class="header__row">
+        <a href="index.html" class="header__row-logo">
+          <h6 class="header__row-logo--title">IT<span>com</span></h6>
+          <p class="header__row-logo--text">for Bussines</p>
+        </a>
+        <nav class="header__row-navigation" id="nav-menu">
+          <ul class="header__row-navigation-items" >
+            <li class="header__row-navigation--link active-link">
+              <a href="#startPage">Старт</a>
+            </li>
+            <li class="header__row-navigation--link">
+              <a href="#services">Услуги</a>
+            </li>
+            <li class="header__row-navigation--link">
+              <a href="#ip-section">ip</a>
+            </li>
+            <li class="header__row-navigation--link">
+            <a href="#vats">атс</a>
+            </li>
+            <li class="header__row-navigation--link">
+              <a href="#formEmail">Прайс</a>
+            </li>
+            
+            <li class="header__row-navigation--link">
+              <a href="#contacts">Contact</a>
+            </li>
+          </ul>
+          <div class="header__row-navigation--burger">
+            <div class="header__row-navigation--burger---line burger-line1"></div>
+            <div class="header__row-navigation--burger---line burger-line2"></div>
+            <div class="header__row-navigation--burger---line burger-line3"></div>
+          </div>
+        </nav>
+
+      </div>
     </div>
-</div>
-    <header class="header">
-        <div class="header__inner">
-            <div class="logo">
-                <a href="#!" class="logo__link">IT<span>com</span></a>
-                <p class="logo__text">for Bussines</p>
+  </header>
+  <main class="main">
+    <section class="titleSection" id="startPage">
+      <div class="container">
+        <div class="titleSection__row">
+          <div class="titleSection__text">
+            <h1 class="titleSection__text-title title-big">
+              <span>DIGITAL</span> телефония   для бизнеса<span></span> 
+            </h1>
+            <p class="titleSection__text-bottom">
+              Клиенты дозвонятся всегда - телефония VoIp от национального оператора Украины
+            </p>
+            <ul class="titleSection__text-bottom--block">
+              <li><p><i class="fas fa-check"></i>Виртуальная АТС</p></li>
+              <li><p><i class="fas fa-check"></i>Номера 0800...</p></li>
+              <li><p><i class="fas fa-check"></i>Городская/мобильная нумерация</p></li>
+            </ul>
+          </div>
+          <div class="titleSection__img">
+            <img class="titleSection__img-image" src="./images/stratPage/man.svg" alt="">
+            <img class="titleSection__img-shadow" src="./images/stratPage/man-shadow.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ipContent__blocks container">
+      <div class="ipContent__block">
+        <span class="ipContent__block-num title-h4">
+          7 200 000
+        </span>
+        <p class="ipContent__block-text">
+          минут в месяц - это общая сумма исходящих звонков нашими клиентами.
+        </p>
+      </div>
+
+      <div class="ipContent__block">
+        <span class="ipContent__block-num title-h4">
+          10 000 +
+        </span>
+        <p class="ipContent__block-text">
+          клиентов пользуется услугой sip телефонией по всей территори Украины используя городскую, мобильную и номера 0-800 ...
+        </p>
+      </div>
+      
+      <div class="ipContent__block">
+        <span class="ipContent__block-num title-h4">
+          20 +
+        </span>
+        <p class="ipContent__block-text">
+          лет, мы предоставляем телекоммуникационные услуги на рынке Украины! 
+        </p>
+      </div>
+    </div>
+    <section class="service-section" id="services"> 
+      <div class="container">
+        <div class="services">
+          <h2 class="services-title title-h2">
+            Наши услуги
+          </h2>
+          <div class="services__inner">
+            <div class="services__inner-box">
+              <i class="fas fa-headset services__inner-box--icon"></i>
+              <h4 class="services__inner-box--title title-h4">ip Телефония</h4>
+              <p class="services__inner-box--text">
+                Оптимизируйте расходы на связь и расширьте возможности коммуникации, легко изменяйте количество номеров и линий
+              </p>
             </div>
-            <nav class="header__nav">
-                <ul class="header__nav-links">
-                    <li class="header__nav-link">
-                        <a href="#!" class="active">0-800</a>
-                    </li>
-                    <li class="header__nav-link link-close">
-                        <a href="#!">SIP</a>
-                    </li>
-                    <li class="header__nav-link link-close">
-                        <a href="#!">ipATC</a>
-                    </li>
-                    <li class="header__nav-link">
-                        <a href="#contacts">Контакти</a>
-                    </li>
+            <div class="services__inner-box">
+              <i class="fas fa-phone-alt services__inner-box--icon"></i>
+              <h4 class="services__inner-box--title title-h4">Городские номера</h4>
+              <p class="services__inner-box--text">
+                Станьте "своим" в любом городе Украины. Подключайте номера всех областей, выбирайте номер категори "Gold", "Платиновый" или просто красивый номер.
+              </p>
+            </div>
+            <div class="services__inner-box">
+              <i class="fas fa-mobile-alt services__inner-box--icon"></i>
+              <h4 class="services__inner-box--title title-h4">0-800 номера</h4>
+              <p class="services__inner-box--text">
+                Увеличьте лояльность клиентов и продажи, подключите единый контактный номер для всей компании 
+              </p>
+            </div>
+            <div class="services__inner-box">
+              <i class="fab fa-mixcloud services__inner-box--icon"></i>
+              <h4 class="services__inner-box--title title-h4">Виртуальная АТС</h4>
+              <p class="services__inner-box--text">
+                Управляйте и анализируйте звонки, реализуйте интеграцию с CRM, создайте единую систему коммуникаций для всей компании
+              </p>
+            </div>
+            <div class="services__inner-box">
+              <i class="fas fa-list-ul services__inner-box--icon"></i>
+              <h4 class="services__inner-box--title title-h4">Настройка CEO</h4>
+              <p class="services__inner-box--text">
+                Повысьте и сохраните видимость сайта  в поисковой системе <span>Google</span>. Увеличте конверсию и продажи.
+              </p>
+            </div>
+            <div class="services__inner-box">
+              <i class="fas fa-digital-tachograph services__inner-box--icon"></i>
+              <h4 class="services__inner-box--title title-h4">Настройка транк</h4>
+              <p class="services__inner-box--text">
+                Постройте виртуальный канал связи между офисной АТС и сетью провайдера с подтверждением Вашего IP адреса.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <section class="ip-section" id="ip-section">
+      <div class="container">
+        <div class="ip">
+          <div class="ip__block">
+            <h2 class="ip__block-title title-h2">
+              <span>IP<br></span>телефония
+            </h2>
+            <p class="ip__block-text">
+              sip/ip телефония - надёжная связь с высоким качеством звука, работает на любом оборудовании. Передача сигнала без  проложения  телефонных линий. Звоните с любого устройства, которое подключено к интернету. 
+            </p>
+            <a class="ip__block-btn button" href="#formEmail">Узнать больше</a>
+          </div>
+          <div class="ip__right">
+            <span class="ip__right-elem--first"></span>
+            <div class="ip__right-elem--second">
+              <img src="./images/stratPage/ip/1.svg" alt="arrow">
+            </div>
+            <span class="ip__right-elem--third"></span>
+            <div class="ip__right-elem--fourth"></div>
+          </div>
+        </div>
+        <div class="ip__benefits">
+          <h3 class="ip__benefits-title title-h2">
+            Выгоды ip телефонии
+          </h3>
+          <div class="ip__benefits-wrap">
+            <div class="ip__benefits-box">
+              <h4 class="ip__benefits-box--title title-h4">Выгодные тарифы:</h4>
+              <p class="ip__benefits-box--num">0,30<span>грн./мин.</span> </p>
+              <div class="ip__benefits-box--text">
+                <ul>
+                  <li class="ip__benefits-box--text---line"><span>посекундная</span> тарификация;</li>
+                  <li class="ip__benefits-box--text---line">трафик увеличивается - стоимость минуты <span>снижается</span>;</li>
+                  <li class="ip__benefits-box--text---line">1000 минут на городские номера.</li>
                 </ul>
-                <div class="header__nav-close">
-                    <span class="header__nav-close-line"></span>
-                    <span class="header__nav-close-line"></span>
-                </div>
-                <ul class="header-language">
-                    <li class="header-languege-ua"><button id="ua" class="lang-button translate">ua</button></li>
-                    <li class="header-lang-in">/</li>
-                    <li class="header-languege-ru"><button id="ru" class=" lang-button translate">ru</button></li>
-                </ul>
-            </nav>
-            <div class="header__burger burger">
-                <span class="burger__line"></span>
-                <span class="burger__line"></span>
-                <span class="burger__line"></span>
+              </div>
             </div>
-        </div>
-    </header>
-    <main class="main">
-        <div class="main-container">
-            <section class="start__page">
-                <div class="start__page_box-title">
-                    <div class="start-title-stic" id="startStic"></div>
-                    <h1 class="start__page-title title">
-                        ip телефония <br><span>номер</span><span>0-800...</span>
-                    </h1>
-                    <p class="start__page-title-text ubuntu lang" key="start__page-p">удвойте количество входящих звонков!!!</p>
-                </div>
-
-                <div class="start__page-text-inner">
-                    <ul class="start__inner-ul">
-                        <li class="start__inner-list">
-                            единый контактный номер для всей компании;
-                        </li>
-                        <li class="start__inner-list">
-                            одновременно принимайте все звонки на один номер;
-                        </li>
-                        <li class="start__inner-list">
-                            получай звонки от каждого клиента со всей Украины.
-                        </li>
-                    </ul>
-                    <p class="start__page-price">обслуживание от <span>75</span> грн./мес.</p>
-                </div>
-                <div class="start__page-link" id="titleButton"><a href="#contacts">Подключить</a></div>
-
-                <div class="start__phone-block">
-                    <div class="phone__block-img">
-                        <div class="phone__block--img-disp">
-                            <h4>Выбери свой <br> <span>Gold</span> номер:</h4>
-                            <ul>
-                                <li><i class="fa fa-phone" aria-hidden="true"></i>0800 750 111</li>
-                                <li><i class="fa fa-phone" aria-hidden="true"></i>0800 751 555</li>
-                                <li><i class="fa fa-phone" aria-hidden="true"></i>0800 75 7775</li>
-                                <li><i class="fa fa-phone" aria-hidden="true"></i>0800 75 9995</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="about__service">
-                <div class="container">
-                    <div class="about__service-content">
-                        <div class="about__service-box">
-                            <h4 class="service-box-title">Преимущество</h4>
-                            <ul class="service-box-list">
-                                <li>номер легко запоминается;</li>
-                                <li>
-                                    увеличивает эффективность рекламных компаний и сервисов поддержки;
-                                </li>
-                                <li>бесплатные звонки с любого оператора.</li>
-                            </ul>
-                        </div>
-                        <div class="about__service-box">
-                            <h4 class="service-box-title">Возможности</h4>
-                            <ul class="service-box-list">
-                                <li>голосовое приветствие клиентов с возможностью установки голосового меню;</li>
-                                <li>наличие единого бесплатного номера для звонка - повышает доверие к компании;</li>
-                                <li>сервис самостоятельной настройки графика работы линий, либо 24/7/365.</li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-            <!-- /.body-section -->
-            <section class="price">
-                <h1 class="price__title title-h3">
-                    Тарифы: сколько стоит номер 0800
-                </h1>
-                <table class="price__table">
-                    <tr class="price__table--backg-gray">
-                        <th>Тарифный план</th>
-                        <th>Стоимость</th>
-                    </tr>
-                    <tr>
-                        <td>Стоимость подключения номера 0800</td>
-                        <td class="table__border-left">199 грн.</td>
-                    </tr>
-                    <tr>
-                        <td>Абонентская плата</td>
-                        <td class="table__border-left">75 грн./мес.</td>
-                    </tr>
-                    <tr>
-                        <td>Стоимость минуты входящего звонка</td>
-                        <td class="table__border-left">0,46 грн./мин.</td>
-                    </tr>
-                </table>
-                <h4 class="price__title-lines title-h3">Услуга многоканальности</h4>
-                <p class="price__title-text">- позволит обрабатывать каждый звонок поступающий на Ваш номер. Добавлять
-                    количество линий очень просто - <span>любые изменения проводятся в течении пяти минут с момента
-                        обращения</span>.</p>
-                <div class="price__table price__table-sec">
-                    <table>
-                        <tr class="price__table--backg-gray">
-                            <th>Абонентская плата за линии</th>
-                            <th>Стоимость (грн./мес.)</th>
-                        </tr>
-
-                        <tr>
-                            <td>до 3 линий</td>
-                            <td>25</td>
-                        </tr>
-                        <tr>
-                            <td>до 5 линий</td>
-                            <td>40</td>
-                        </tr>
-                        <tr>
-                            <td>до 10 линий</td>
-                            <td>50</td>
-                        </tr>
-                        <tr>
-                            <td>до 15 линий</td>
-                            <td>60</td>
-                        </tr>
-                        <tr>
-                            <td>до 20 линий</td>
-                            <td>70</td>
-                        </tr>
-                        <tr>
-                            <td>до 40 линий</td>
-                            <td>120</td>
-                        </tr>
-                        <tr>
-                            <td>до 60 линий</td>
-                            <td>150</td>
-                        </tr>
-                        <tr>
-                            <td>до 100 линий</td>
-                            <td>200</td>
-                        </tr>
-                        <tr>
-                            <td class="table__color-grey">Активация услуги</td>
-                            <td class="table__color-grey">99грн. (разово)</td>
-                        </tr>
-                    </table>
-                </div>
-            </section>
-            <!-- /.price -->
-        </div>
-        <section class="settings">
-            <div class="main-container">
-                <h1 class="settings-title title-h3">
-                    Как подключить номер 0800...
-                </h1>
-                <div class="settings__block">
-                    <div class="settings__block--box">
-                        <div class="settings__block--box-num">
-                            <span>1</span>
-                        </div>
-                        <h5 class="settings__block--box-title">
-                            <i class="fa fa-phone" aria-hidden="true"></i>
-                            Выбрать номер 0800...
-                        </h5>
-                        <ul class="settings__box-lists">
-                            <li class="settings__box-list">Подумайте над более подходящей комбинацией цифр;</li>
-                            <li class="settings__box-list">Возможно у Вас есть уже номер - укажите его при заявке.</li>
-                        </ul>
-                        <a href="#contacts" class="settings__block--box-button">Бронь</a>
-                    </div>
-                    <div class="settings__block--box">
-                        <div class="settings__block--box-num">
-                            <span>2</span>
-                        </div>
-                        <h5 class="settings__block--box-title"><i class="fa fa-file-text-o" aria-hidden="true"></i>Заключить договор сотрудничества</h5>
-                        <p class="settings__block--box-text settings__block--box-center">Требуется:<span>  св-во о регистрации и банковские реквизиты.</span></p>
-                    </div>
-                    <div class="settings__block--box">
-                        <div class="settings__block--box-num">
-                            <span>3</span>
-                        </div>
-                        <h5 class="settings__block--box-title">
-                            <i class="fa fa-desktop" aria-hidden="true"></i>
-                            Организовать рабочее место:</h5>
-                        <ul class="settings__box-lists">
-                            <li class="settings__box-list">компьютер/ноутбук/планшет, гарнитура;</li>
-                            <li class="settings__box-list">доступ в интернет.</li>
-                        </ul>
-                    </div>
-
-
-                </div>
+            <div class="ip__benefits-box">
+              <h4 class="ip__benefits-box--title title-h4">Простота в подключении:</h4>
+              <p class="ip__benefits-box--num">120 <span>секунд</span> </p>
+              <div class="ip__benefits-box--text">
+                <p>времени нужно для изменения услуги или многоканальности. Управляйте номером с экрана смартфона через личный кабинет.</p>
+              </div>
             </div>
-        </section>
-        <!-- /.settings -->
-        <section class="section__form" id="contacts">
-            <div class="form-container">
-                <div class="section__form-info">
-
-                    <h2 class="section__form-info-title">Контакты</h2>
-                    <ul class="form__info">
-                        <li class="form__info-link">
-                            <span><img src="images/location-png.png" alt="" /></span>
-                            <span>пл.Защитников Украины 7/8<br />Харьков, UA<br />61001</span>
-                        </li>
-                        <li class="form__info-link">
-                            <span><img src="images/mail-png.png" alt="" /></span>
-                            <a class="form__link-adress" href="mail:itcorp.stu@gmail.com">corp.kharkiv@it.od.ua</a>
-                        </li>
-                        <li class="form__info-link">
-                            <span><img src="images/contact-png.png" alt="" /></span>
-                            <a class="form__link-phone" href="tel:380946677877">+38 (094) 66 77 877</a>
-                        </li>
-                    </ul>
-                    <ul class="sci">
-                        <li class='form__sci-link underway'>Intertelecom &copy;</li>
-                    </ul>
-                </div>
-                <div class="contact__form">
-                    <h2 class="contact__form-title">Ваше сообщение</h2>
-                    <form class="form__box">
-                        <!-- Hidden Required Fields -->
-                        <input type="hidden" name="project_name" value="Site ITcom-0800">
-                        <input type="hidden" name="admin_email" value="itcom21@itcom.net.ua">
-                        <input type="hidden" name="form_subject" value="0800">
-                        <!-- END Hidden Required Fields -->
-                        <div class="form__box-input w50">
-                            <input type="text" name="user_name" required="required" />
-                            <span>Имя</span>
-                        </div>
-                        <div class="form__box-input w50">
-                            <input type="text" name="Город" required="required" />
-                            <span>Город</span>
-                        </div>
-                        <div class="form__box-input w50">
-                            <input type="email" name="@email" required="required" />
-                            <span>Email</span>
-                        </div>
-                        <div class="form__box-input w50">
-                            <input type="number" name="номер" required="required" />
-                            <span>+38...</span>
-                        </div>
-                        <div class="form__box-input w100">
-                            <textarea name="Текст" required="required"></textarea>
-                            <span>Напишите пожелание к номеру ...</span>
-                        </div>
-                        <div class="form__box-input w100 button-input">
-                            <input type="submit" value="Отправить" />
-                        </div>
-                    </form>
-                </div>
+            <div class="ip__benefits-box">
+              <h4 class="ip__benefits-box--title title-h4">Многоканальность:</h4>
+              <p class="ip__benefits-box--num">25<span>грн. за</span>3<span>линии</span></p>
+              <div class="ip__benefits-box--text">
+                <p>используйте <span>единый номер</span> для <span>компании</span>. С услугой многоканальности принимайте и совершайте несколько звонков <span>одновременно</span>. Подключите услугу  и получите до 100 линий на номере. </p>
+              </div>
             </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="footer__inner">
-            Copy &copy; 2021, <span class="logo-cubera">Cubera</span> - All Rights Reserved.
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section class="ipContent-section">
+      <div class="container">
+        <div class="ipContent">
+          <h3 class="ipContent-title title-h4">
+            С услугой <span>SIP</span> Вы <span>значительно</span> расширите <br> возможности <span>телефонии</span>
+          </h3>
+          <p class="ipContent-text">
+            Стабильная/качественная связь, приём звонка без дополнительного оборудования, клиенты всегда дозвонятся, интеграция с вашей CRM, подключение любого номера (городской/мобильный/0-800), многоканальность, экономия на стоимости звонка и многое другое.
+          </p>
+        </div>
+      </div>
+    </section>
+     
+    <section class="vats-section" id="vats">
+      <div class="container">
+        <div class="vats">
+          <h2 class="vats-title title-h2">
+            Подключите офисный <span>проект АТС</span> с Intertelecom
+          </h2>
+          <a href="#formEmail" class="vats-btn button">
+            Легкий старт
+          </a>
+          <div class="vats-rain">
+            <img src="./images/stratPage/vats/rain.svg" alt="">
+          </div>
+          <div class="vats-circle">
+            <img src="./images/stratPage/vats/circles.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="vatsSecond-section">
+      <div class="container">
+        <div class="vatsSecond-wrap">
+          <div class="vatsSecond">
+            <div class="vatsSecond__content">
+              <div class="vatsSecond__content-title title-h2">
+                Как быстро внедрить и управлять <span>АТС</span>
+              </div>
+              <p class="vatsSecond__content-text">
+                Оставьте заявку и  наши специалисты свяжутся с Вами, подготовят персональное коммерческое предложение и помогут в подключении услуг.
+              </p>
+              <a href="#formEmail" class="vatsSecond__content-btn button">Узнать больше</a>
+            </div>
+            <div class="vatsSecond__cards">
+              <div class="vatsSecond__cards-inner">
+                <div class="vatsSecond__cards-inner--pic">
+                  <img src="./images/stratPage/vats/pict-block.png" alt="">
+                </div>
+                <div class="vatsSecond__cards-inner--block">
+                  <h4>Все номера в одной сети</h4>
+                  <p>Минимальные затраты на тестовый период</p>
+                  <div class="vatsSecond__cards-inner--block---num">
+                    <span>пакет <strong>start</strong></span>
+                    <p>350,00<span>грн./мес.</span></p>
+                    
+                  </div>
+                  <div class="vatsSecond__cards-inner--block---proc">
+                    <div>5<span>операторов</span></div>
+                    <div>2<span>номера</span></div>
+                    <div>15<span>доп.услуг</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="vatsSecond__cards-innerRight">
+                <p>3 месяца</p>
+                <p><span>25%</span> скидка</p>
+              </div>
+              <div class="vatsSecond__cards-row">
+                <img src="./images/stratPage/ip/1.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="helper-section">
+      <div class="container">
+        <div class="helper">
+          <div class="helper__pictures">
+            <div class="helper__pictures-block">
+              <img src="./images/stratPage/helper/mask.png" alt="">
+              <div class="helper__pictures-block--bg1"></div>
+              <div class="helper__pictures-block--bg2"></div>
+              <div class="helper__pictures-block--bg3"></div>
+            </div>
+          </div>
+          <div class="helper__content">
+            <h2 class="title-h2">
+              Мы обсудим все вопросы и <span>поможем</span> найти решение
+            </h2>
+            <p>
+              Наши специалисты постоянно работают над  развитием  технологии VoIP.  Системно подходят к развитию услуг и качества телефонии, учитывая пожелания клиентов и  новинок в сфере технологий.
+            </p>
+            <div class="helper__content-wrap">
+              <div class="helper__content-wrap--box">
+                <i class="fas fa-users"></i>
+                <h4 class="title-h4">Для физических лиц-предпринимателей и малого бизнеса.</h4>
+                <p>
+                  Легко подключайтесь – оформление номера и отправление настроек в течение дня. Оплата в месяц от 50 грн. 
+                </p>
+              </div>
+              <div class="helper__content-wrap--box">
+                <i class="fas fa-briefcase"></i>
+                <h4 class="title-h4">Для среднего и крупного бизнеса.</h4>
+                <p>
+                  Пропорциональный рост абонентской платы: чем выше тариф – тем дешевле минуты звонка. Быстрое изменение многоканальности и подключение дополнительных услуг.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="formEmail-section" id="formEmail">
+      <div class="container">
+        <div class="formEmail">
+          <div class="formEmail__block">
+            <h3 class="formEmail__block-title title-h2">
+              Мы пришлем Вам коммерческое предложение
+            </h3>
+
+            <form class="formEmail__block-box">
+              <!-- Hidden Required Fields -->
+              <input type="hidden" name="project_name" value="Site itCOM">
+              <input type="hidden" name="admin_email" value="itcorp.stu@gmail.com">
+              <input type="hidden" name="form_subject" value="ITcom">
+              <!-- END Hidden Required Fields -->
+
+              <input type="email" name="@email" placeholder="mail@..." required>
+              <button class="button" type="submit">Отправить</button>
+            </form>
+            <div class="formEmail__block-social">
+              <p class="formEmail__block-social--text">
+                либо напишите нам ... 
+              </p>
+              <div class="formEmail__block-social--icons">
+                <a href="https://t.me/joinchat/NnZgH-A_7-o1NjM6"><i class="fab fa-telegram-plane"></i></a>
+                <a href="https://t.me/joinchat/NnZgH-A_7-o1NjM6"><i class="fab fa-viber"></i></a>
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-section-wrap">
+          <div class="footer">
+            <div class="footer__block">
+              <div class="footer__block-case">
+                <div class="footer__block-case--title title-h4">
+                  Intertelecom ©
+                </div>
+                <div class="footer__block-case--text">
+                  <p>
+                    Вы больше не пропустите ценный звонок. Объединяйте все номера в одну сеть и обеспечьте офис связью без стационарных АТС. Легко изменяйте количество линий и подключайте дополнительные услуги со смартфона в личном кабинете.
+                  </p>
+                </div>
+              </div>
+              <div class="footer__block-locashion" id="contacts">
+                <div class="footer__block-locashion--adress">
+                  <i class="fas fa-map-marked-alt"></i>
+                  пл.Защитников Украины 7/8 Харьков, UA 61001
+                </div>
+                <div class="footer__block-locashion--wrap">
+                  <div class="footer__block-locashion--wrap---phones">
+                    <a href="tel:380946677877">
+                      <i class="fas fa-phone-square-alt"></i>
+                      +38 094 66 77 877</a>
+                    <a href="tel:380946677877">
+                      <i class="fas fa-phone-square-alt"></i>
+                      +38 094 66 77 897</a>
+                  </div>
+                  <div class="footer__block-locashion--wrap---timetable">
+                    
+                    <p>
+                      <i class="fas fa-clock"></i>
+                      Mon-Fri: 9:00 - 18:00</p>
+                    <p>Sat-Sun: holidays </p>
+                  </div>
+                  
+                </div>
+                <div class="footer__block-locashion--mail">
+                  <a href="mail:corp.stu@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                    corp.stu@gmail.com</a>
+                  <a href="mail:corp.kharkiv@it.od.ua">
+                    <i class="fas fa-envelope"></i>
+                    corp.kharkiv@it.od.ua</a>
+                </div>
+              </div>
+            </div>
+            <div class="footer__copyright">
+              <p>© Copyrights 2021</p>
+              <p>Privacy policy</p>
+              <p>Terms of service</p>
+          </div>
+          </div> 
+        </div>
+      </div>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="js/main.js"></script>
-
+    <a href="#startPage" class="scrollup" id="scroll-up">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  
 </body>
-
 </html>
